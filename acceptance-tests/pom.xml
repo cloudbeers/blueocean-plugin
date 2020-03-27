@@ -88,7 +88,7 @@
         <dependency>
             <groupId>org.kohsuke</groupId>
             <artifactId>github-api</artifactId>
-            <version>1.85</version>
+            <version>1.99</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
@@ -352,7 +352,7 @@
             </activation>
             <properties>
                 <node.download.file>node-v${node.version}-linux-x64.tar.gz</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
         <profile>
@@ -364,7 +364,7 @@
             </activation>
             <properties>
                 <node.download.file>node-v${node.version}-darwin-x64.tar.gz</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
         <profile>
@@ -403,7 +403,7 @@
             </activation>
             <properties>
                 <node.download.file>win-x86/node.exe</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
 
